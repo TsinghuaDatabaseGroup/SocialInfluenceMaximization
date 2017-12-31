@@ -1,0 +1,422 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AABB	Quadtree.h	/^    AABB(XY _center, XY _halfDimension) : center(_center), halfDimension(_halfDimension) {}$/;"	f	struct:AABB
+AABB	Quadtree.h	/^struct AABB {$/;"	s
+Algorithms with protect bf large bf protect$ epsilon cdot 1 1 lowercase e	laim/trunk/src/sec5-hint.tex	/^\\section{Algorithms with \\protect{\\bf \\large \\bf \\protect$\\epsilon\\cdot (1-1\/\\lowercase{e})$} Approximation} \\label{sec:hint}$/;"	s
+Args	limit.h	/^class Args$/;"	c
+Assembly based Method	laim/trunk/src/sec4-ta.tex	/^\\section{Assembly-based Method} \\label{sec:assemble}$/;"	s
+Bound based Algorithm	laim/trunk/src/sec5-hint.tex	/^\\subsection{Bound-based Algorithm} \\label{subsec:hit:extension}$/;"	b
+Build	general_cascade.cpp	/^void GeneralCascade::Build()$/;"	f	class:GeneralCascade
+Build2WC	graph.cpp	/^void Graph::Build2WC()$/;"	f	class:Graph
+Build2WCFromFile	graph.cpp	/^void Graph::Build2WCFromFile(char* filename)$/;"	f	class:Graph
+BuildFromFile	pmia_upgrade.cpp	/^void SPT_upgrade::BuildFromFile(int bound)$/;"	f	class:SPT_upgrade
+CACHE_H	Cache.h	/^#define CACHE_H$/;"	d
+CACHE_RATIO	limit.cpp	/^int Args::CACHE_RATIO = 10;$/;"	m	class:Args	file:
+CACHE_RATIO	limit.h	/^        static int CACHE_RATIO;  \/\/ 10$/;"	m	class:Args
+CAPACITY	limit.cpp	/^int Args::CAPACITY = 500;$/;"	m	class:Args	file:
+CAPACITY	limit.h	/^        static int CAPACITY;    \/\/ 500$/;"	m	class:Args
+CC	Makefile	/^CC= g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -O3 -Wall$/;"	m
+CHECKIN_PATH	data/gowalla_parser.py	/^CHECKIN_PATH = os.path.join($/;"	v
+CONNECTION_PATH	data/gowalla_parser.py	/^CONNECTION_PATH = os.path.join($/;"	v
+Cache	Cache.h	/^class Cache$/;"	c
+Candidate Seeds Selection	laim/trunk/src/sec3-baseline.tex	/^\\subsection{Candidate Seeds Selection} \\label{subsec:expansion:candidate}$/;"	b
+Challenges	laim/trunk/src/sec2-preliminary.tex	/^\\subsection{Challenges}\\label{subsec:challenges}$/;"	b
+Conclusion	laim/trunk/src/sec8-con.tex	/^\\section{Conclusion}\\label{sec:con}$/;"	s
+EPS	limit.h	/^#define EPS /;"	d
+Edge	graph.h	/^struct Edge $/;"	s
+Efficiency	laim/trunk/src/sec6-exp.tex	/^\\subsection{Efficiency}$/;"	b
+Ex	laim/trunk/src/ex.tex	/^\\section{Ex}$/;"	s
+Expansion based method	laim/trunk/src/sec3-baseline.tex	/^\\section{Expansion-based method}\\label{sec:expansion}$/;"	s
+Experiment settings	laim/trunk/src/sec6-exp.tex	/^\\subsection{Experiment settings}$/;"	b
+Experimental Study	laim/trunk/src/sec6-exp.tex	/^\\section{Experimental Study} \\label{sec:exp}$/;"	s
+GENERAL_CASCADE_H	general_cascade.h	/^#define GENERAL_CASCADE_H$/;"	d
+GRAPH_H	graph.h	/^#define GRAPH_H$/;"	d
+GeneralCascade	general_cascade.h	/^class GeneralCascade $/;"	c
+GetDegree	graph.cpp	/^int Graph::GetDegree(int node)$/;"	f	class:Graph
+GetEdge	graph.cpp	/^Edge Graph::GetEdge(int node, int idx)$/;"	f	class:Graph
+GetM	graph.cpp	/^int Graph::GetM()$/;"	f	class:Graph
+GetMax	pmia_upgrade.cpp	/^int SPT_upgrade::GetMax(int round)  \/\/ get node with maximum incremental influence. round is the number of selected seeds.$/;"	f	class:SPT_upgrade
+GetN	graph.cpp	/^int Graph::GetN()$/;"	f	class:Graph
+GetNeighbor	graph.cpp	/^int Graph::GetNeighbor(int node)$/;"	f	class:Graph
+GetNode	pmia_upgrade.cpp	/^int SPT_upgrade::GetNode(int i)$/;"	f	class:SPT_upgrade
+Graph	graph.h	/^class Graph$/;"	c
+HEAP_H	heap.h	/^#define HEAP_H$/;"	d
+Hardness of The Problem	laim/trunk/src/sec2-preliminary.tex	/^\\subsection{Hardness of The Problem}\\label{subsec:hard}$/;"	b
+Heap	heap.cpp	/^Heap::Heap(bool max, int capacity) {$/;"	f	class:Heap
+Heap	heap.h	/^class Heap {$/;"	c
+Hint based Algorithm	laim/trunk/src/sec5-hint.tex	/^\\subsection{Hint-based Algorithm}\\label{subsec:hit:algo}$/;"	b
+Hint based Framework	laim/trunk/remove.tex	/^\\subsection{Hint-based Framework}$/;"	b
+INFL_PATH	data/gowalla_parser.py	/^INFL_PATH = 'gowalla.inf'$/;"	v
+IndexNodesOnEdges	graph.cpp	/^void Graph::IndexNodesOnEdges() {$/;"	f	class:Graph
+Indexes	laim/trunk/src/sec4-ta.tex	/^\\subsection{Indexes}\\label{subsec:assembly:frame}$/;"	b
+Influence Spread	laim/trunk/src/sec6-exp.tex	/^\\subsection{Influence Spread}$/;"	b
+Introduction	laim/trunk/src/sec1-intro.tex	/^\\section{Introduction}$/;"	s
+LDFLAGS	Makefile	/^LDFLAGS= -lm$/;"	m
+LIMIT_H	limit.h	/^#define LIMIT_H$/;"	d
+LOCS_PATH	data/gowalla_parser.py	/^LOCS_PATH = 'gowalla.loc'$/;"	v
+MAX_CK	limit.cpp	/^int Args::MAX_CK = 5000;$/;"	m	class:Args	file:
+MAX_CK	limit.h	/^        static int MAX_CK;  \/\/ 5000$/;"	m	class:Args
+MAX_K	limit.h	/^#define MAX_K	/;"	d
+MAX_NODE	limit.h	/^#define MAX_NODE	/;"	d
+MAX_QK	limit.cpp	/^int Args::MAX_QK = 5000;$/;"	m	class:Args	file:
+MAX_QK	limit.h	/^        static int MAX_QK;  \/\/ 5000$/;"	m	class:Args
+MIN_CK	limit.cpp	/^int Args::MIN_CK = 10;$/;"	m	class:Args	file:
+MIN_CK	limit.h	/^        static int MIN_CK;  \/\/ 10$/;"	m	class:Args
+MIP_H	mip.h	/^#define MIP_H$/;"	d
+Mip	mip.h	/^class Mip$/;"	c
+NE	Quadtree.h	/^        Quadtree * NE;$/;"	m	class:Quadtree
+NUM_ITER	limit.h	/^#define NUM_ITER	/;"	d
+NW	Quadtree.h	/^        Quadtree * NW;$/;"	m	class:Quadtree
+PROTOTYPE	limit.h	/^#define PROTOTYPE /;"	d
+Preliminary	laim/trunk/src/sec2-preliminary.tex	/^\\section{Preliminary}\\label{sec:pre}$/;"	s
+Problem Formulation	laim/trunk/src/sec2-preliminary.tex	/^\\subsection{Problem Formulation} \\label{subsec:problem}$/;"	b
+Quadtree	Quadtree.cpp	/^Quadtree::Quadtree(XY _center, XY _halfDimension, int _nodeCapacity)$/;"	f	class:Quadtree
+Quadtree	Quadtree.h	/^class Quadtree {$/;"	c
+Related Works	laim/trunk/src/sec7-rw.tex	/^\\section{Related Works} \\label{sec:rw}$/;"	s
+RemoveMultiPaths	graph.cpp	/^void Graph::RemoveMultiPaths() {$/;"	f	class:Graph
+Run	general_cascade.cpp	/^double GeneralCascade::Run(int num_iter, int size, int set[])$/;"	f	class:GeneralCascade
+S	mip.cpp	/^vector<int> Mip::S; $/;"	m	class:Mip	file:
+S	mip.h	/^	    static vector<int> S; $/;"	m	class:Mip
+S	pmia_upgrade.cpp	/^int *SPT_upgrade::S;$/;"	m	class:SPT_upgrade	file:
+S	pmia_upgrade.h	/^	static int *S, *numchild, *queue;$/;"	m	class:SPT_upgrade
+SE	Quadtree.h	/^        Quadtree * SE;$/;"	m	class:Quadtree
+SPT_upgrade	pmia_upgrade.h	/^class SPT_upgrade$/;"	c
+SPT_upgrade_H	pmia_upgrade.h	/^#define SPT_upgrade_H$/;"	d
+STR_LEN	limit.h	/^#define STR_LEN	/;"	d
+SW	Quadtree.h	/^        Quadtree * SW;$/;"	m	class:Quadtree
+Scalability	laim/trunk/src/sec6-exp.tex	/^\\subsection{Scalability}$/;"	b
+SetTarget	general_cascade.cpp	/^void GeneralCascade::SetTarget(int size, int set[])$/;"	f	class:GeneralCascade
+TAGS	Makefile	/^TAGS=mip$/;"	m
+XY	Quadtree.h	/^    XY(float _x, float _y) : x(_x), y(_y) {}  \/\/ x as longitude, y as latitude$/;"	f	struct:XY
+XY	Quadtree.h	/^struct XY {$/;"	s
+__QUADTREE__	Quadtree.h	/^#define __QUADTREE__$/;"	d
+accept	Scripts/draw_bench.py	/^accept = [0.90, 0.85, 0.8]$/;"	v
+accept	Scripts/result_analysis_accept.py	/^accept = [1., 0.95, 0.90, 0.85, 0.8]$/;"	v
+accept	mip.cpp	/^void Mip::accept(int s) {$/;"	f	class:Mip
+analysis	Scripts/result_analysis.py	/^def analysis(datapath):$/;"	f
+analysis	Scripts/result_analysis_accept.py	/^def analysis(datapath):$/;"	f
+ap	mip.cpp	/^vector<double> Mip::ap;$/;"	m	class:Mip	file:
+ap	mip.h	/^        static vector<double> ap;$/;"	m	class:Mip
+argparse	Scripts/result_analysis.py	/^    import argparse$/;"	i
+argparse	Scripts/result_analysis_accept.py	/^    import argparse$/;"	i
+args	Scripts/result_analysis.py	/^    args = parse_argv(sys.argv[1:])$/;"	v
+args	Scripts/result_analysis_accept.py	/^    args = parse_argv(sys.argv[1:])$/;"	v
+assembly	main.cpp	/^bool assembly(Quadtree* qt, AABB boundary, int qK, vector<int> &aTopk, int$/;"	f
+assembly	mip.cpp	/^vector<int> Mip::assembly(int k, const vector<vector<int> >& candidates, const$/;"	f	class:Mip
+b	mip.cpp	/^vector<double> Mip::b;$/;"	m	class:Mip	file:
+b	mip.h	/^        static vector<double> b;$/;"	m	class:Mip
+b	pmia_upgrade.cpp	/^double *SPT_upgrade::distance, *SPT_upgrade::b;$/;"	m	class:SPT_upgrade	file:
+b	pmia_upgrade.h	/^	static double *distance, *b;$/;"	m	class:SPT_upgrade
+bInflees	mip.cpp	/^vector<int *> Mip::bInflees;$/;"	m	class:Mip	file:
+bInflees	mip.h	/^        static vector<int *> bInflees;$/;"	m	class:Mip
+bNumInflees	mip.cpp	/^vector<int> Mip::bNumInflees;$/;"	m	class:Mip	file:
+bNumInflees	mip.h	/^        static vector<int> bNumInflees;$/;"	m	class:Mip
+baseline	main.cpp	/^bool baseline(Quadtree *qt, AABB boundary, int qK, set<int> &dTopkSet, int$/;"	f
+bb	mip.cpp	/^vector<vector<double> > Mip::bb;$/;"	m	class:Mip	file:
+bb	mip.h	/^        static vector<vector<double> > bb;$/;"	m	class:Mip
+bbound	pmia_upgrade.cpp	/^int SPT_upgrade::bbound=-1;$/;"	m	class:SPT_upgrade	file:
+bbound	pmia_upgrade.h	/^    static int bbound;$/;"	m	class:SPT_upgrade
+bchildren	pmia_upgrade.h	/^	static vector<int *>bchildren, bpath;  \/\/  b means "Back up"$/;"	m	class:SPT_upgrade
+bdd	pmia_upgrade.h	/^	static vector<int> bdd;  \/\/ number of members in in-arborescence$/;"	m	class:SPT_upgrade
+bdelta	pmia_upgrade.h	/^	static vector<double *>bdelta;  \/\/ alpha in the paper, delta[node][i] is node's ith child i's alpha over node$/;"	m	class:SPT_upgrade
+bmip	mip.cpp	/^vector<double *> Mip::bmip;$/;"	m	class:Mip	file:
+bmip	mip.h	/^        static vector<double *> bmip;$/;"	m	class:Mip
+boundary	Quadtree.h	/^        AABB boundary;$/;"	m	class:Quadtree
+bpath	pmia_upgrade.h	/^	static vector<int *>bchildren, bpath;  \/\/  b means "Back up"$/;"	m	class:SPT_upgrade
+bself	pmia_upgrade.h	/^	static vector<double*> bself;  \/\/ self[node][i] is node's ith child's activation probability in node's in-arborescence$/;"	m	class:SPT_upgrade
+built	general_cascade.cpp	/^bool GeneralCascade::built = false;$/;"	m	class:GeneralCascade	file:
+built	general_cascade.h	/^	static bool built;$/;"	m	class:GeneralCascade
+cacheOneRegion	main.cpp	/^void cacheOneRegion(Quadtree *qt, int rid, AABB boundary)$/;"	f
+cacheTau	mip.cpp	/^void Mip::cacheTau(int k, vector<int>& topTau, vector<double>& tauDp)$/;"	f	class:Mip
+capacity	heap.h	/^        int capacity;$/;"	m	class:Heap
+cdds	Cache.cpp	/^vector<vector<int> > Cache::cdds;$/;"	m	class:Cache	file:
+cdds	Cache.h	/^        static vector<vector<int> >cdds;  \/\/ set of candidates in a Quadtree node$/;"	m	class:Cache
+cdds	mip.cpp	/^vector<vector<int> > Mip::cdds;$/;"	m	class:Mip	file:
+cdds	mip.h	/^        static vector<vector<int> > cdds;$/;"	m	class:Mip
+center	Quadtree.h	/^    XY center;$/;"	m	struct:AABB
+changed	mip.cpp	/^vector<bool> Mip::changed;$/;"	m	class:Mip	file:
+changed	mip.h	/^        static vector<bool> changed;$/;"	m	class:Mip
+childlist	mip.cpp	/^vector<int> Mip::childlist;$/;"	m	class:Mip	file:
+childlist	mip.h	/^        static vector<int> childlist;$/;"	m	class:Mip
+childlist	pmia_upgrade.cpp	/^int *SPT_upgrade::childlist, *SPT_upgrade::oldchildlist, *SPT_upgrade::parent;$/;"	m	class:SPT_upgrade	file:
+childlist	pmia_upgrade.h	/^	static int *childlist, *oldchildlist, *parent;$/;"	m	class:SPT_upgrade
+children	mip.cpp	/^vector<vector<int> > Mip::children;$/;"	m	class:Mip	file:
+children	mip.h	/^        static vector<vector<int> > children;$/;"	m	class:Mip
+children	pmia_upgrade.h	/^	static vector<int *>children, path;  $/;"	m	class:SPT_upgrade
+clear	Quadtree.cpp	/^void Quadtree::clear() {$/;"	f	class:Quadtree
+clear	heap.cpp	/^void Heap::clear() {$/;"	f	class:Heap
+containsAABB	Quadtree.h	/^    bool containsAABB(AABB other) {$/;"	f	struct:AABB
+containsPoint	Quadtree.h	/^    bool containsPoint(float x, float y) {$/;"	f	struct:AABB
+count	Quadtree.cpp	/^int Quadtree::count = 0;$/;"	m	class:Quadtree	file:
+count	Quadtree.h	/^        static int count;$/;"	m	class:Quadtree
+count	Scripts/generate_random_queries.py	/^count = 1$/;"	v
+count	mip.cpp	/^int Mip::count;$/;"	m	class:Mip	file:
+count	mip.h	/^        static int count;$/;"	m	class:Mip
+d	pmia_upgrade.cpp	/^double SPT_upgrade::d[MAX_K];  \/\/ incremental influence ?$/;"	m	class:SPT_upgrade	file:
+d	pmia_upgrade.h	/^	static double d[MAX_K];  \/\/ incremental influence of topk nodes$/;"	m	class:SPT_upgrade
+dataname	Scripts/draw_bench.py	/^    dataname = 'foursquare'$/;"	v
+dataname	Scripts/draw_bench.py	/^    dataname = 'foursquare_extend'$/;"	v
+dataname	Scripts/draw_bench.py	/^    dataname = 'gowalla'$/;"	v
+datapath	Scripts/result_analysis.py	/^    datapath = args.datapath$/;"	v
+datapath	Scripts/result_analysis_accept.py	/^    datapath = args.datapath$/;"	v
+dd	pmia_upgrade.h	/^	static vector<int> dd;  \/\/ number of members in in-arborescence$/;"	m	class:SPT_upgrade
+degree	graph.cpp	/^vector<int> Graph::degree;$/;"	m	class:Graph	file:
+degree	graph.h	/^	static vector<int> degree;$/;"	m	class:Graph
+delta	pmia_upgrade.h	/^	static vector<double *>delta;  \/\/ alpha in the paper, delta[node][i] is node's ith child i's alpha over node$/;"	m	class:SPT_upgrade
+distance	mip.cpp	/^vector<double> Mip::distance;$/;"	m	class:Mip	file:
+distance	mip.h	/^        static vector<double> distance;$/;"	m	class:Mip
+distance	pmia_upgrade.cpp	/^double *SPT_upgrade::distance, *SPT_upgrade::b;$/;"	m	class:SPT_upgrade	file:
+distance	pmia_upgrade.h	/^	static double *distance, *b;$/;"	m	class:SPT_upgrade
+dp	Cache.cpp	/^vector<vector<double> > Cache::dp;$/;"	m	class:Cache	file:
+dp	Cache.h	/^        static vector<vector<double> >dp; $/;"	m	class:Cache
+dp	pmia_upgrade.h	/^	static vector<double> dp;  \/\/ incremental influence$/;"	m	class:SPT_upgrade
+dpTau	Cache.cpp	/^vector<vector<double> > Cache::dpTau;$/;"	m	class:Cache	file:
+dpTau	Cache.h	/^        static vector<vector<double> >dpTau; $/;"	m	class:Cache
+dumbHint	main.cpp	/^bool dumbHint(Quadtree* qt, AABB boundary, int qK, double acceptRatio, vector<int> &hTopk, int *numNatives, double *hTimer, double *hSpread) {$/;"	f
+dumbHint	mip.cpp	/^vector<int> Mip::dumbHint(int k, double acceptRatio, const vector<vector<int> >& candidates, const vector<vector<double> > &initDp) $/;"	f	class:Mip
+edges	graph.cpp	/^vector<Edge> Graph::edges;$/;"	m	class:Graph	file:
+edges	graph.h	/^	static vector<Edge> edges;$/;"	m	class:Graph
+edgesSorted	graph.cpp	/^bool Graph::edgesSorted = false;$/;"	m	class:Graph	file:
+edgesSorted	graph.h	/^    static bool edgesSorted;$/;"	m	class:Graph
+empty	heap.cpp	/^bool Heap::empty() {$/;"	f	class:Heap
+end	heap.h	/^        int end;$/;"	m	class:Heap
+estCount	mip.cpp	/^int Mip::estCount;$/;"	m	class:Mip	file:
+estCount	mip.h	/^        static int estCount;$/;"	m	class:Mip
+estimateIncInfl	mip.cpp	/^double Mip::estimateIncInfl(int s) {$/;"	f	class:Mip
+estimateLowerIncInfl	mip.cpp	/^double Mip::estimateLowerIncInfl(const vector<int>& vertices) {$/;"	f	class:Mip
+euro	Scripts/generate_random_queries.py	/^euro = (54.572062, 15.441284, 20, 25)  # Europe$/;"	v
+exit	mip.cpp	/^void Mip::exit() {$/;"	f	class:Mip
+exit	pmia_upgrade.cpp	/^void SPT_upgrade::exit()$/;"	f	class:SPT_upgrade
+expansion	main.cpp	/^bool expansion(Quadtree* qt, AABB boundary, int qK, vector<int> &eTopk, int$/;"	f
+file	pmia_upgrade.cpp	/^char SPT_upgrade::file[] = "SPT_upgrade_0000.txt";$/;"	m	class:SPT_upgrade	file:
+file	pmia_upgrade.h	/^	static char file[STR_LEN];$/;"	m	class:SPT_upgrade
+filename	pmia_upgrade.cpp	/^char* SPT_upgrade::filename(int bound)$/;"	f	class:SPT_upgrade
+findTauOneRegion	main.cpp	/^void findTauOneRegion(Quadtree *qt, int rid, AABB boundary, int k)$/;"	f
+g	data/pre2inf.py	/^g = {}$/;"	v
+gc	mip.cpp	/^void Mip::gc() {$/;"	f	class:Mip
+gc	pmia_upgrade.cpp	/^void SPT_upgrade::gc()$/;"	f	class:SPT_upgrade
+generateSPT_newfrom	pmia_upgrade.cpp	/^int SPT_upgrade::generateSPT_newfrom(int round, int node){$/;"	f	class:SPT_upgrade
+generateSPT_newto	pmia_upgrade.cpp	/^int SPT_upgrade::generateSPT_newto(int node){$/;"	f	class:SPT_upgrade
+getCandidates	Cache.cpp	/^bool Cache::getCandidates(vector<int>& list, int rid, int num)$/;"	f	class:Cache
+getDP	Cache.cpp	/^bool Cache::getDP(vector<double>& list, int rid, int num)$/;"	f	class:Cache
+getDPTau	Cache.cpp	/^bool Cache::getDPTau(vector<double>& list, int rid, int num)$/;"	f	class:Cache
+getHints	mip.cpp	/^double Mip::getHints(vector<int>&hint, const vector<vector<int> >& topTau, const vector<vector<double> >& dpTau, int num)$/;"	f	class:Mip
+getTopTau	Cache.cpp	/^bool Cache::getTopTau(vector<int>& list, int rid, int num)$/;"	f	class:Cache
+halfDimension	Quadtree.h	/^    XY halfDimension;$/;"	m	struct:AABB
+heap	heap.h	/^        int *heap;$/;"	m	class:Heap
+heap	mip.cpp	/^vector<int> Mip::heap;$/;"	m	class:Mip	file:
+heap	mip.h	/^	    static vector<int> heap;$/;"	m	class:Mip
+heap	pmia_upgrade.cpp	/^int *SPT_upgrade::heap;$/;"	m	class:SPT_upgrade	file:
+heap	pmia_upgrade.h	/^	static int *heap;$/;"	m	class:SPT_upgrade
+hint	main.cpp	/^bool hint(Quadtree* qt, AABB boundary, int qK, double acceptRatio, vector<int> &hTopk, int *numNatives, double *hTimer, double *hSpread) {$/;"	f
+hint	mip.cpp	/^vector<int> Mip::hint(int k, double acceptRatio, const vector<vector<int> >& candidates, const vector<vector<double> > &initDp, const vector<vector<int> >& topTau, const vector<vector<double> > &dpTau) $/;"	f	class:Mip
+id	Quadtree.h	/^        int id;$/;"	m	class:Quadtree
+ids	Quadtree.h	/^        std::vector<int> ids;$/;"	m	class:Quadtree
+idxHeap	heap.h	/^        int *idxHeap;  \/\/ keep a vertex's index in vector heap.$/;"	m	class:Heap
+incInfl	mip.cpp	/^double Mip::incInfl(int node) {$/;"	f	class:Mip
+incInflTimer	mip.cpp	/^double Mip::incInflTimer;$/;"	m	class:Mip	file:
+incInflTimer	mip.h	/^        static double incInflTimer;$/;"	m	class:Mip
+index	graph.cpp	/^vector<int> Graph::index;$/;"	m	class:Graph	file:
+index	graph.h	/^	static vector<int> index;$/;"	m	class:Graph
+inflees	mip.cpp	/^vector<int *> Mip::inflees;$/;"	m	class:Mip	file:
+inflees	mip.h	/^        static vector<int *> inflees;$/;"	m	class:Mip
+init	Cache.cpp	/^void Cache::init(int numOfRegions)$/;"	f	class:Cache
+init	mip.cpp	/^void Mip::init(double _longest) {$/;"	f	class:Mip
+init	pmia_upgrade.cpp	/^double SPT_upgrade::init(int bound)$/;"	f	class:SPT_upgrade
+init_bound	pmia_upgrade.h	/^    static int init_bound;  \/\/ bound used to initialize PMIA globally$/;"	m	class:SPT_upgrade
+insert	Quadtree.cpp	/^bool Quadtree::insert(int id, float x, float y) {$/;"	f	class:Quadtree
+intersectsAABB	Quadtree.h	/^    bool intersectsAABB(AABB other) {$/;"	f	struct:AABB
+isCandidate	limit.h	/^        static bool isCandidate(int i)$/;"	f	class:Args
+isInitCached	Cache.cpp	/^bool Cache::isInitCached(int rid)$/;"	f	class:Cache
+isMax	heap.h	/^        bool isMax;$/;"	m	class:Heap
+isNative	limit.h	/^        static bool isNative(int i)$/;"	f	class:Args
+isTauCached	Cache.cpp	/^bool Cache::isTauCached(int rid)$/;"	f	class:Cache
+is_cdd	limit.h	/^        static vector<bool> is_cdd;$/;"	m	class:Args
+is_init_cached	Cache.cpp	/^vector<bool> Cache::is_init_cached;$/;"	m	class:Cache	file:
+is_init_cached	Cache.h	/^        static vector<bool> is_init_cached;$/;"	m	class:Cache
+is_native	limit.h	/^        static vector<bool> is_native;$/;"	m	class:Args
+is_native	mip.cpp	/^vector<bool> Mip::is_native;$/;"	m	class:Mip	file:
+is_native	mip.h	/^        static vector<bool> is_native;  \/\/ if this node is a native user.$/;"	m	class:Mip
+is_native	pmia_upgrade.h	/^    static vector<bool> is_native;  \/\/ if this node is a native user.$/;"	m	class:SPT_upgrade
+is_tau_cached	Cache.cpp	/^vector<bool> Cache::is_tau_cached;$/;"	m	class:Cache	file:
+is_tau_cached	Cache.h	/^        static vector<bool> is_tau_cached;$/;"	m	class:Cache
+k	pmia_upgrade.cpp	/^int SPT_upgrade::k=1;$/;"	m	class:SPT_upgrade	file:
+k	pmia_upgrade.h	/^	static int k;$/;"	m	class:SPT_upgrade
+ks	Scripts/draw_bench.py	/^ks = [[10, 20, 30, 40, 50],$/;"	v
+ks	Scripts/generate_random_queries.py	/^ks = [10, 20, 30, 40, 50, 100, 200, 300, 400, 500, 1000, 2000, 3000, 4000, 5000]$/;"	v
+ks	Scripts/result_analysis.py	/^ks = [10, 20, 30, 40, 50, 100, 200, 300, 400, 500, 1000, 2000, 3000, 4000, 5000]$/;"	v
+ks	Scripts/result_analysis_accept.py	/^ks = [10, 20, 30, 40, 50, 100, 200, 300, 400, 500, 1000, 2000, 3000, 4000, 5000]$/;"	v
+ks	data/pre2inf.py	/^        ks = g.keys()$/;"	v
+lMaxHeap	mip.cpp	/^Heap *Mip::lMaxHeap;  \/\/ \\Heap in paper$/;"	m	class:Mip	file:
+lMaxHeap	mip.h	/^        static Heap *lMaxHeap;  \/\/ lower bound \\Heap in paper$/;"	m	class:Mip
+lastupdate	pmia_upgrade.h	/^	static vector<int> lastupdate;$/;"	m	class:SPT_upgrade
+lat_steps	Scripts/generate_random_queries.py	/^lat_steps = range(1, 25, 5)$/;"	v
+list	pmia_upgrade.cpp	/^int SPT_upgrade::list[MAX_K];  \/\/ topk$/;"	m	class:SPT_upgrade	file:
+list	pmia_upgrade.h	/^	static int list[MAX_K];$/;"	m	class:SPT_upgrade
+lng_steps	Scripts/generate_random_queries.py	/^lng_steps = range(1, 40, 5)$/;"	v
+load_hint_res	Scripts/draw_bench.py	/^def load_hint_res(dataname):$/;"	f
+load_res	Scripts/draw_bench.py	/^def load_res(dataname):$/;"	f
+load_ress	Scripts/draw_bench.py	/^def load_ress(dataname):$/;"	f
+longest	mip.cpp	/^double Mip::longest;$/;"	m	class:Mip	file:
+longest	mip.h	/^        static double longest;$/;"	m	class:Mip
+longest	pmia_upgrade.cpp	/^double SPT_upgrade::longest = log(100.0);$/;"	m	class:SPT_upgrade	file:
+longest	pmia_upgrade.h	/^	static double longest;$/;"	m	class:SPT_upgrade
+lowerIncInfl	mip.cpp	/^double Mip::lowerIncInfl(int s) {$/;"	f	class:Mip
+m	general_cascade.cpp	/^int GeneralCascade::m = 0;$/;"	m	class:GeneralCascade	file:
+m	general_cascade.h	/^	static int	n, m;$/;"	m	class:GeneralCascade
+m	graph.cpp	/^int  Graph::m = 0;$/;"	m	class:Graph	file:
+m	graph.h	/^	static int m;$/;"	m	class:Graph
+main	main.cpp	/^int main(int argc, char * argv[])$/;"	f
+maxHeap	mip.cpp	/^Heap *Mip::maxHeap;  \/\/ \\Heap in paper$/;"	m	class:Mip	file:
+maxHeap	mip.h	/^        static Heap *maxHeap;  \/\/ \\Heap in paper$/;"	m	class:Mip
+methods	Scripts/draw_bench.py	/^methods = ['base', 'expansion', 'assembly',$/;"	v
+mip	mip.cpp	/^vector<double *> Mip::mip;$/;"	m	class:Mip	file:
+mip	mip.h	/^        static vector<double *> mip;$/;"	m	class:Mip
+n	general_cascade.cpp	/^int GeneralCascade::n = 0;$/;"	m	class:GeneralCascade	file:
+n	general_cascade.h	/^	static int	n, m;$/;"	m	class:GeneralCascade
+n	graph.cpp	/^int  Graph::n = 0;$/;"	m	class:Graph	file:
+n	graph.h	/^	static int n;$/;"	m	class:Graph
+n	mip.cpp	/^int Mip::n;$/;"	m	class:Mip	file:
+n	mip.h	/^	    static int n;$/;"	m	class:Mip
+n	pmia_upgrade.cpp	/^int SPT_upgrade::n = 0;$/;"	m	class:SPT_upgrade	file:
+n	pmia_upgrade.h	/^	static int n;$/;"	m	class:SPT_upgrade
+nextSeed	mip.cpp	/^int Mip::nextSeed(double *inc) {$/;"	f	class:Mip
+nodeCapacity	Quadtree.h	/^        int nodeCapacity;$/;"	m	class:Quadtree
+np	Scripts/generate_random_queries.py	/^import numpy as np$/;"	i
+num	Scripts/generate_random_queries.py	/^num = 5$/;"	v
+numCdds	mip.cpp	/^vector<int> Mip::numCdds;$/;"	m	class:Mip	file:
+numCdds	mip.h	/^        static vector<int> numCdds;$/;"	m	class:Mip
+numInflees	mip.cpp	/^vector<int> Mip::numInflees;$/;"	m	class:Mip	file:
+numInflees	mip.h	/^        static vector<int> numInflees;$/;"	m	class:Mip
+numInfrs	mip.cpp	/^vector<int> Mip::numInfrs;  \/\/ total number of influencers$/;"	m	class:Mip	file:
+numInfrs	mip.h	/^        static vector<int> numInfrs;  \/\/ total number of influencers$/;"	m	class:Mip
+numchild	mip.cpp	/^vector<int> Mip::numchild; $/;"	m	class:Mip	file:
+numchild	mip.h	/^        static vector<int> numchild; $/;"	m	class:Mip
+numchild	pmia_upgrade.cpp	/^int *SPT_upgrade::numchild;$/;"	m	class:SPT_upgrade	file:
+numchild	pmia_upgrade.h	/^	static int *S, *numchild, *queue;$/;"	m	class:SPT_upgrade
+oldchildlist	pmia_upgrade.cpp	/^int *SPT_upgrade::childlist, *SPT_upgrade::oldchildlist, *SPT_upgrade::parent;$/;"	m	class:SPT_upgrade	file:
+oldchildlist	pmia_upgrade.h	/^	static int *childlist, *oldchildlist, *parent;$/;"	m	class:SPT_upgrade
+os	Scripts/draw_bench.py	/^import os$/;"	i
+os	Scripts/result_analysis.py	/^import os$/;"	i
+os	Scripts/result_analysis_accept.py	/^import os$/;"	i
+os	data/gowalla_parser.py	/^import os$/;"	i
+outAp	mip.cpp	/^vector<double *> Mip::outAp;$/;"	m	class:Mip	file:
+outAp	mip.h	/^        static vector<double *> outAp;$/;"	m	class:Mip
+outB	mip.cpp	/^vector<double *> Mip::outB;$/;"	m	class:Mip	file:
+outB	mip.h	/^        static vector<double *> outB;$/;"	m	class:Mip
+outPath	mip.cpp	/^vector<int *> Mip::outPath;$/;"	m	class:Mip	file:
+outPath	mip.h	/^        static vector<int *> outPath;$/;"	m	class:Mip
+overall	Quadtree.cpp	/^void Quadtree::overall(std::vector<int> & list)$/;"	f	class:Quadtree
+parent	mip.cpp	/^vector<int> Mip::parent;$/;"	m	class:Mip	file:
+parent	mip.h	/^        static vector<int> parent;$/;"	m	class:Mip
+parent	pmia_upgrade.cpp	/^int *SPT_upgrade::childlist, *SPT_upgrade::oldchildlist, *SPT_upgrade::parent;$/;"	m	class:SPT_upgrade	file:
+parent	pmia_upgrade.h	/^	static int *childlist, *oldchildlist, *parent;$/;"	m	class:SPT_upgrade
+parse_argv	Scripts/result_analysis.py	/^def parse_argv(argv):$/;"	f
+parse_argv	Scripts/result_analysis_accept.py	/^def parse_argv(argv):$/;"	f
+parser	data/gowalla_parser.py	/^import parser$/;"	i
+path	mip.cpp	/^vector<vector<int> > Mip::path;$/;"	m	class:Mip	file:
+path	mip.h	/^        static vector<vector<int> > path;$/;"	m	class:Mip
+path	pmia_upgrade.h	/^	static vector<int *>children, path;  $/;"	m	class:SPT_upgrade
+path_log	pmia_upgrade.cpp	/^static char path_log[STR_LEN] = "SPT_upgrade.log.txt";$/;"	v	file:
+peek	heap.cpp	/^double Heap::peek(int key) {$/;"	f	class:Heap
+pop	heap.cpp	/^bool Heap::pop(int* key, double* val) {$/;"	f	class:Heap
+population	Quadtree.h	/^        int population;$/;"	m	class:Quadtree
+populations	Scripts/draw_bench.py	/^populations = [0, 50000, 500000, 5000000]$/;"	v
+populations	Scripts/result_analysis.py	/^populations = [0, 50000, 500000, 5000000]$/;"	v
+populations	Scripts/result_analysis_accept.py	/^populations = [0, 50000, 500000, 5000000]$/;"	v
+print	Quadtree.cpp	/^void Quadtree::print()$/;"	f	class:Quadtree
+print	heap.cpp	/^void Heap::print() {$/;"	f	class:Heap
+push	heap.cpp	/^bool Heap::push(int key, double val) {$/;"	f	class:Heap
+qsort_edges	graph.cpp	/^void Graph::qsort_edges(int h, int t)$/;"	f	class:Graph
+queries	Scripts/generate_random_queries.py	/^queries = list(random_q_bounds(us, num, lat_steps, lng_steps))$/;"	v
+queryRange	Quadtree.cpp	/^void Quadtree::queryRange(std::vector<int> & list, AABB range) {$/;"	f	class:Quadtree
+queryRangeFO	Quadtree.cpp	/^void Quadtree::queryRangeFO(std::vector<int> &list, std::vector<int> &others, vector<AABB> boundaries, AABB range)$/;"	f	class:Quadtree
+queryRangeLocations	Quadtree.cpp	/^void Quadtree::queryRangeLocations(std::vector<int> & list, vector<float>& nativesX, vector<float>& nativesY, AABB range) {$/;"	f	class:Quadtree
+queryRangeRegion	Quadtree.cpp	/^void Quadtree::queryRangeRegion(std::vector<int> & list, std::vector<AABB> & boundaries, AABB range)$/;"	f	class:Quadtree
+queue	mip.cpp	/^vector<int> Mip::queue;$/;"	m	class:Mip	file:
+queue	mip.h	/^        static vector<int> queue;$/;"	m	class:Mip
+queue	pmia_upgrade.cpp	/^int *SPT_upgrade::queue;$/;"	m	class:SPT_upgrade	file:
+queue	pmia_upgrade.h	/^	static int *S, *numchild, *queue;$/;"	m	class:SPT_upgrade
+random_q_bounds	Scripts/generate_random_queries.py	/^def random_q_bounds(bounds, num, lat_steps, lng_steps):$/;"	f
+readLocations	main.cpp	/^void readLocations(Quadtree *qt, char* arg) {$/;"	f
+readRelations	main.cpp	/^void readRelations(char* arg) {$/;"	f
+regions	Scripts/draw_bench.py	/^regions = ['small', 'medium', 'large']$/;"	v
+reset	limit.h	/^        static void reset(int n)$/;"	f	class:Args
+reset	mip.cpp	/^void Mip::reset() {$/;"	f	class:Mip
+reset	pmia_upgrade.cpp	/^void SPT_upgrade::reset() {$/;"	f	class:SPT_upgrade
+reset_native	mip.cpp	/^void Mip::reset_native()$/;"	f	class:Mip
+reset_native	pmia_upgrade.cpp	/^void SPT_upgrade::reset_native()$/;"	f	class:SPT_upgrade
+ress	Scripts/draw_bench.py	/^    ress = [base_res, exp_res, ta_res]$/;"	v
+ress	Scripts/draw_bench.py	/^    ress = [ta_res, hint_res90, hint_res85, hint_res80,$/;"	v
+resultSize	general_cascade.cpp	/^int	GeneralCascade::resultSize = 0;$/;"	m	class:GeneralCascade	file:
+resultSize	general_cascade.h	/^	static int	resultSize;$/;"	m	class:GeneralCascade
+run	data/gowalla_parser.py	/^def run():$/;"	f
+sap	mip.cpp	/^vector<double> Mip::sap;$/;"	m	class:Mip	file:
+sap	mip.h	/^        static vector<double> sap;$/;"	m	class:Mip
+score	heap.h	/^        double *score;$/;"	m	class:Heap
+select	mip.cpp	/^vector<int> Mip::select(int k) {$/;"	f	class:Mip
+select	pmia_upgrade.cpp	/^void SPT_upgrade::select(int num)$/;"	f	class:SPT_upgrade
+self	pmia_upgrade.h	/^	static vector<double*> self;  \/\/ self[node][i] is node's ith child's activation probability in node's in-arborescence$/;"	m	class:SPT_upgrade
+setCandidate	limit.h	/^        static void setCandidate(int i)$/;"	f	class:Args
+setCandidates	Cache.cpp	/^void Cache::setCandidates(int rid, vector<int> list)$/;"	f	class:Cache
+setDP	Cache.cpp	/^void Cache::setDP(int rid, vector<double> list)$/;"	f	class:Cache
+setDPTau	Cache.cpp	/^void Cache::setDPTau(int rid, vector<double> list)$/;"	f	class:Cache
+setInitCached	Cache.cpp	/^void Cache::setInitCached(int rid, bool isCached)$/;"	f	class:Cache
+setNative	limit.h	/^        static void setNative(int i)$/;"	f	class:Args
+setTauCached	Cache.cpp	/^void Cache::setTauCached(int rid, bool isCached)$/;"	f	class:Cache
+setTopTau	Cache.cpp	/^void Cache::setTopTau(int rid, vector<int> list)$/;"	f	class:Cache
+shortestPathsFrom	mip.cpp	/^void Mip::shortestPathsFrom(int node) {$/;"	f	class:Mip
+size	heap.cpp	/^int Heap::size() {$/;"	f	class:Heap
+sortInit	mip.cpp	/^void Mip::sortInit(const vector<int>& vertices, vector<int>& candidates,$/;"	f	class:Mip
+sortInitAllRegion	main.cpp	/^void sortInitAllRegion(Quadtree *qt, Quadtree* lqt)$/;"	f
+sortInitOneRegion	main.cpp	/^void sortInitOneRegion(Quadtree *qt, int rid, AABB boundary)$/;"	f
+start	heap.h	/^        clock_t start;$/;"	m	class:Heap
+status	mip.cpp	/^vector<int> Mip::status;$/;"	m	class:Mip	file:
+status	mip.h	/^        static vector<int> status;$/;"	m	class:Mip
+subdivide	Quadtree.cpp	/^void Quadtree::subdivide() {$/;"	f	class:Quadtree
+summary	data/pre2inf.py	/^    summary = f.readline()$/;"	v
+summary	data/pre2inf.py	/^summary = ''$/;"	v
+sys	Scripts/result_analysis.py	/^    import sys$/;"	i
+sys	Scripts/result_analysis_accept.py	/^    import sys$/;"	i
+target	general_cascade.cpp	/^int	GeneralCascade::target[MAX_K]={0};$/;"	m	class:GeneralCascade	file:
+target	general_cascade.h	/^	static int	target[MAX_K];$/;"	m	class:GeneralCascade
+targetSize	general_cascade.cpp	/^int	GeneralCascade::targetSize = 0;$/;"	m	class:GeneralCascade	file:
+targetSize	general_cascade.h	/^	static int	targetSize;$/;"	m	class:GeneralCascade
+target_mip	Makefile	/^target_mip= Quadtree.o heap.o Cache.o limit.o general_cascade.o graph.o pmia_upgrade.o mip.o main.o $/;"	m
+timer	heap.h	/^        double timer;  \/\/ remember how much time wasted on self.$/;"	m	class:Heap
+tmp	Scripts/draw_bench.py	/^tmp = '..\/tmp\/july28'$/;"	v
+tmp	Scripts/result_analysis.py	/^tmp = '..\/tmp\/'$/;"	v
+tmp	Scripts/result_analysis_accept.py	/^tmp = '..\/tmp\/'$/;"	v
+toSimulateOnce	main.cpp	/^double toSimulateOnce(int setsize, int (*GetNode)(int i), double (*Run)(int num_iter, int size, int set[]))  \/\/ simulate influence spread at one step$/;"	f
+toSimulateOnce2	main.cpp	/^double toSimulateOnce2(int setsize, vector<int>topk, double (*Run)(int num_iter, int size, int set[]))  \/\/ simulate influence spread at one step$/;"	f
+top	heap.cpp	/^bool Heap::top(int* key, double* val) {$/;"	f	class:Heap
+top	pmia_upgrade.cpp	/^int SPT_upgrade::top = 0;$/;"	m	class:SPT_upgrade	file:
+top	pmia_upgrade.h	/^	static int top;$/;"	m	class:SPT_upgrade
+topTau	Cache.cpp	/^vector<vector<int> > Cache::topTau;$/;"	m	class:Cache	file:
+topTau	Cache.h	/^        static vector<vector<int> >topTau;  \/\/ set of local topk users$/;"	m	class:Cache
+topk	pmia_upgrade.h	/^	static int topk[MAX_K];$/;"	m	class:SPT_upgrade
+trans_data	Scripts/draw_bench.py	/^def trans_data(dataname, ks, ress, pop_idx, hint):$/;"	f
+u	data/pre2inf.py	/^        u = int(u) + 1$/;"	v
+u	graph.h	/^	int u,v;	$/;"	m	struct:Edge
+us	Scripts/generate_random_queries.py	/^us = (39.300299, -95.814514, 20, 35)  # America$/;"	v
+used	mip.cpp	/^vector<bool> Mip::used;  \/\/ selected as topk, global structure$/;"	m	class:Mip	file:
+used	mip.h	/^	    static vector<bool> used;  \/\/ selected as topk, global structure$/;"	m	class:Mip
+used	pmia_upgrade.h	/^	static vector<bool> used;  \/\/ selected as topk$/;"	m	class:SPT_upgrade
+v	data/pre2inf.py	/^        v = int(v) + 1$/;"	v
+v	graph.h	/^	int u,v;	$/;"	m	struct:Edge
+validlist	pmia_upgrade.cpp	/^bool *SPT_upgrade::validlist[MAX_K]={NULL};$/;"	m	class:SPT_upgrade	file:
+validlist	pmia_upgrade.h	/^	static bool *validlist[MAX_K];  \/\/ validlist[round][node] means round_th selected seed is invalid in node's in-arborescence$/;"	m	class:SPT_upgrade
+w1	data/pre2inf.py	/^                w1 = 1. \/ len(g[v])$/;"	v
+w1	graph.h	/^	double w1,w2;$/;"	m	struct:Edge
+w2	data/pre2inf.py	/^                w2 = 0.0$/;"	v
+w2	graph.h	/^	double w1,w2;$/;"	m	struct:Edge
+x	Quadtree.h	/^    float x, y;$/;"	m	struct:XY
+xs	Quadtree.h	/^        std::vector<float> xs;$/;"	m	class:Quadtree
+y	Quadtree.h	/^    float x, y;$/;"	m	struct:XY
+ys	Quadtree.h	/^        std::vector<float> ys;$/;"	m	class:Quadtree
+~Heap	heap.cpp	/^Heap::~Heap() {$/;"	f	class:Heap

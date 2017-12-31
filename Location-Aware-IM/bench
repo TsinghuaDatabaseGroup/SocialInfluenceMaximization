@@ -1,0 +1,36 @@
+cd data/
+python pre2inf.py
+cd ..
+
+make clean && make
+
+./mip -m 20 prototype < queries_prototype
+./mip -a 20 prototype < queries_prototype
+./mip -h 20 prototype < queries_prototype
+# ./mip -m 100 prototype < queries_prototype
+# ./mip -a 100 prototype < queries_prototype
+# ./mip -h 100 prototype < queries_prototype
+
+# ./mip -m 20 gowalla < queries
+# ./mip -m 20 foursquare < queries
+# ./mip -m 20 foursquare_extend < queries
+
+# ./mip -a 20 gowalla < queries
+# ./mip -a 20 foursquare < queries
+# ./mip -a 20 foursquare_extend < queries
+
+# ./mip -h 20 gowalla < queries
+# ./mip -h 20 foursquare < queries
+# ./mip -h 20 foursquare_extend < queries
+
+# ./mip -m 100 gowalla < queries
+# ./mip -m 100 foursquare < queries
+# ./mip -m 100 foursquare_extend < queries
+
+# ./mip -a 100 gowalla < queries
+# ./mip -a 100 foursquare < queries
+# ./mip -a 100 foursquare_extend < queries
+
+# ./mip -h 100 gowalla < queries
+# ./mip -h 100 foursquare < queries
+# ./mip -h 100 foursquare_extend < queries

@@ -1,0 +1,1561 @@
+rm -rf *.o mip
+g++ -O3 -Wall -o Quadtree.o -c Quadtree.cpp
+g++ -O3 -Wall -o heap.o -c heap.cpp
+g++ -O3 -Wall -o Cache.o -c Cache.cpp
+g++ -O3 -Wall -o limit.o -c limit.cpp
+g++ -O3 -Wall -o general_cascade.o -c general_cascade.cpp
+g++ -O3 -Wall -o graph.o -c graph.cpp
+g++ -O3 -Wall -o pmia_upgrade.o -c pmia_upgrade.cpp
+g++ -O3 -Wall -o mip.o -c mip.cpp
+g++ -O3 -Wall -o main.o -c main.cpp
+g++ -O3 -Wall Quadtree.o heap.o Cache.o limit.o general_cascade.o graph.o pmia_upgrade.o mip.o main.o  -o mip -lm
+Quadtree insertion begin...
+Quadtree insertion done. 24 population, 17 regions total.
+Build WC model...
+Build WC model done.
+PMIA upgrade initialization...
+initialization time: 5.2e-05 
+initialization MIPs...
+initialization MIPs done.
+baseline query begin...
+16 natives in this query.
+
+PMIA time: 0.000031
+baseline query end.
+expansion based query begin...
+expansion query find natives operation 0.000004 seconds.
+14 4.66667 0 
+3 4.375 1 
+16 2.25 2 
+15 2.33333 3 
+4 1.66667 4 
+7 1.33333 5 
+12 1.66667 6 
+19 0.916667 7 
+0 2 8 
+5 1.66667 9 
+6 1 10 
+1 1 11 
+8 1.33333 12 
+10 1.58333 13 
+18 0.916667 14 
+17 0.333333 15 
+21 0.791667 16 
+9 1 17 
+2 1.33333 18 
+11 1 19 
+13 1 20 
+23 0.333333 21 
+1th new seed: dp[14] == 4.666667
+3 4.375 0 
+15 2.33333 1 
+16 2.25 2 
+0 2 3 
+4 1.66667 4 
+7 1.33333 5 
+12 1.66667 6 
+19 0.916667 7 
+2 1.33333 8 
+5 1.66667 9 
+6 1 10 
+1 1 11 
+8 1.33333 12 
+10 1.58333 13 
+18 0.916667 14 
+17 0.333333 15 
+21 0.791667 16 
+9 1 17 
+23 0.333333 18 
+11 1 19 
+13 1 20 
+3 estimated inc: 4.34375
+2th new seed: dp[3] == 4.343750
+15 2.33333 0 
+0 2 1 
+16 2.25 2 
+2 1.33333 3 
+4 1.66667 4 
+7 1.33333 5 
+12 1.66667 6 
+19 0.916667 7 
+13 1 8 
+5 1.66667 9 
+6 1 10 
+1 1 11 
+8 1.33333 12 
+10 1.58333 13 
+18 0.916667 14 
+17 0.333333 15 
+21 0.791667 16 
+9 1 17 
+23 0.333333 18 
+11 1 19 
+15 estimated inc: 0.222222
+16 estimated inc: 1.85851
+0 estimated inc: 1.62934
+3th new seed: dp[16] == 1.802951
+4 1.66667 0 
+5 1.66667 1 
+12 1.66667 2 
+2 1.33333 3 
+0 1.62934 4 
+7 1.33333 5 
+10 1.58333 6 
+19 0.916667 7 
+13 1 8 
+15 0.222222 9 
+6 1 10 
+1 1 11 
+8 1.33333 12 
+11 1 13 
+18 0.916667 14 
+17 0.333333 15 
+21 0.791667 16 
+9 1 17 
+23 0.333333 18 
+4 estimated inc: 0.673973
+5 estimated inc: 0.472222
+12 estimated inc: 0.396195
+0 estimated inc: 0.423973
+10 estimated inc: 1.4375
+4th new seed: dp[10] == 1.437500
+2 1.33333 0 
+13 1 1 
+7 1.33333 2 
+9 1 3 
+6 1 4 
+8 1.33333 5 
+11 1 6 
+19 0.916667 7 
+5 0.472222 8 
+15 0.222222 9 
+23 0.333333 10 
+1 1 11 
+12 0.396195 12 
+4 0.673973 13 
+18 0.916667 14 
+17 0.333333 15 
+21 0.791667 16 
+0 0.423973 17 
+2 estimated inc: 0.695891
+7 estimated inc: 0.222222
+8 estimated inc: 0.729167
+13 estimated inc: 0.666667
+9 estimated inc: 0
+6 estimated inc: 0.666667
+1 estimated inc: 0.611111
+11 estimated inc: 0.5
+19 estimated inc: 0.223958
+18 estimated inc: 0.223958
+21 estimated inc: 0.153646
+5th new seed: dp[8] == 0.729167
+2 0.695891 0 
+13 0.666667 1 
+4 0.673973 2 
+1 0.611111 3 
+23 0.333333 4 
+5 0.472222 5 
+6 0.666667 6 
+17 0.333333 7 
+21 0.153646 8 
+15 0.222222 9 
+18 0.223958 10 
+0 0.423973 11 
+12 0.396195 12 
+11 0.5 13 
+9 0 14 
+19 0.223958 15 
+7 0.222222 16 
+expansion query find candidates operation 0.000027 seconds.
+expansion query heap operation 0.000060 seconds.
+expansion query compute 5 times.
+expansion query estimate 20 times.
+expansion query compute 0.000088 seconds.
+reset takes 0.000005 seconds
+expansion query end.
+0.001181 6.4e-05 5 5 14 13.6 1.02941 16 1.000000 
+Quadtree insertion begin...
+Quadtree insertion done. 24 population, 17 regions total.
+Build WC model...
+Build WC model done.
+PMIA upgrade initialization...
+initialization MIPs...
+initialization MIPs done.
+XY:(0.000000 0.000000), halfDimension:(1.000000 1.000000)
+0 1 2 3 16 17 4 5 6 7 20 9 12 13 14 15 23 8 10 11 18 19 21 22 
+list[3] == 4.708333
+list[14] == 4.666667
+list[16] == 4.250000
+list[19] == 2.916667
+list[15] == 2.333333
+list[6] == 2.000000
+list[0] == 2.000000
+list[5] == 2.000000
+list[18] == 1.916667
+list[21] == 1.791667
+list[4] == 1.666667
+list[12] == 1.666667
+list[7] == 1.666667
+list[10] == 1.583333
+list[8] == 1.333333
+list[2] == 1.333333
+list[17] == 1.333333
+list[23] == 1.333333
+list[22] == 1.000000
+list[9] == 1.000000
+list[13] == 1.000000
+list[1] == 1.000000
+list[20] == 1.000000
+list[11] == 1.000000
+
+XY:(-0.500000 0.500000), halfDimension:(0.500000 0.500000)
+0 1 2 16 17 
+list[16] == 3.583333
+list[0] == 1.333333
+list[2] == 1.333333
+list[17] == 1.333333
+list[1] == 1.000000
+list[4] == 0.333333
+list[14] == 0.333333
+list[12] == 0.333333
+list[3] == 0.125000
+
+XY:(0.500000 0.500000), halfDimension:(0.500000 0.500000)
+3 4 5 6 7 20 
+list[3] == 4.166667
+list[6] == 2.000000
+list[5] == 1.666667
+list[7] == 1.666667
+list[20] == 1.000000
+list[4] == 1.000000
+list[16] == 0.500000
+list[0] == 0.500000
+
+XY:(0.250000 0.750000), halfDimension:(0.250000 0.250000)
+
+
+XY:(0.750000 0.750000), halfDimension:(0.250000 0.250000)
+
+
+XY:(0.250000 0.250000), halfDimension:(0.250000 0.250000)
+3 4 5 6 7 
+list[3] == 3.833333
+list[5] == 1.333333
+list[7] == 1.333333
+list[4] == 1.000000
+list[6] == 1.000000
+list[16] == 0.500000
+list[0] == 0.500000
+
+XY:(0.750000 0.250000), halfDimension:(0.250000 0.250000)
+20 
+list[6] == 1.000000
+list[20] == 1.000000
+list[7] == 0.333333
+list[3] == 0.333333
+list[5] == 0.333333
+
+XY:(-0.500000 -0.500000), halfDimension:(0.500000 0.500000)
+9 12 13 14 15 23 
+list[14] == 4.333333
+list[15] == 2.333333
+list[12] == 1.333333
+list[23] == 1.333333
+list[9] == 1.000000
+list[13] == 1.000000
+
+XY:(-0.750000 -0.250000), halfDimension:(0.250000 0.250000)
+
+
+XY:(-0.250000 -0.250000), halfDimension:(0.250000 0.250000)
+9 12 13 14 15 
+list[14] == 4.333333
+list[15] == 2.333333
+list[12] == 1.333333
+list[9] == 1.000000
+list[13] == 1.000000
+list[23] == 0.333333
+
+XY:(-0.750000 -0.750000), halfDimension:(0.250000 0.250000)
+
+
+XY:(-0.250000 -0.750000), halfDimension:(0.250000 0.250000)
+23 
+list[23] == 1.000000
+
+XY:(0.500000 -0.500000), halfDimension:(0.500000 0.500000)
+8 10 11 18 19 21 22 
+list[19] == 2.916667
+list[18] == 1.916667
+list[21] == 1.791667
+list[10] == 1.583333
+list[8] == 1.333333
+list[11] == 1.000000
+list[22] == 1.000000
+list[3] == 0.416667
+list[5] == 0.333333
+list[4] == 0.333333
+list[16] == 0.166667
+list[0] == 0.166667
+
+XY:(0.250000 -0.250000), halfDimension:(0.250000 0.250000)
+8 10 11 
+list[10] == 1.583333
+list[8] == 1.333333
+list[11] == 1.000000
+list[18] == 0.916667
+list[19] == 0.916667
+list[21] == 0.791667
+list[3] == 0.416667
+list[5] == 0.333333
+list[4] == 0.333333
+list[0] == 0.166667
+list[16] == 0.166667
+
+XY:(0.750000 -0.250000), halfDimension:(0.250000 0.250000)
+18 19 
+list[19] == 2.000000
+list[18] == 1.000000
+
+XY:(0.250000 -0.750000), halfDimension:(0.250000 0.250000)
+21 
+list[21] == 1.000000
+
+XY:(0.750000 -0.750000), halfDimension:(0.250000 0.250000)
+22 
+list[22] == 1.000000
+
+assembly based query begin...
+assembly query find natives operation 0.000009 seconds.
+list[16] == 1.583333
+list[0] == 1.333333
+list[2] == 1.333333
+list[1] == 1.000000
+list[12] == 0.333333
+list[4] == 0.333333
+list[14] == 0.333333
+list[17] == 0.333333
+list[3] == 0.125000
+
+assembly query construct lists operation 0.000045 seconds.
+number of lists: 4
+push vertex: dp[3] == 4.375000
+push vertex: dp[14] == 4.666667
+push vertex: dp[10] == 1.583333
+push vertex: dp[16] == 2.250000
+0 depth, threshold value 11.333333, bound 0.000000
+14 4.66667 0 
+3 4.375 1 
+10 1.58333 2 
+16 2.25 3 
+push vertex: dp[5] == 1.666667
+push vertex: dp[15] == 2.333333
+push vertex: dp[8] == 1.333333
+push vertex: dp[0] == 2.000000
+1 depth, threshold value 6.333333, bound 4.666667
+14 4.66667 0 
+3 4.375 1 
+15 2.33333 2 
+16 2.25 3 
+5 1.66667 4 
+10 1.58333 5 
+8 1.33333 6 
+0 2 7 
+push vertex: dp[7] == 1.333333
+push vertex: dp[12] == 1.666667
+push vertex: dp[11] == 1.000000
+push vertex: dp[2] == 1.333333
+2 depth, threshold value 5.000000, bound 4.666667
+14 4.66667 0 
+3 4.375 1 
+15 2.33333 2 
+16 2.25 3 
+5 1.66667 4 
+10 1.58333 5 
+8 1.33333 6 
+0 2 7 
+7 1.33333 8 
+12 1.66667 9 
+11 1 10 
+2 1.33333 11 
+push vertex: dp[4] == 1.666667
+push vertex: dp[9] == 1.000000
+push vertex: dp[18] == 0.916667
+push vertex: dp[1] == 1.000000
+3 depth, threshold value 3.916667, bound 4.666667
+14 4.66667 0 
+3 4.375 1 
+15 2.33333 2 
+16 2.25 3 
+5 1.66667 4 
+4 1.66667 5 
+8 1.33333 6 
+0 2 7 
+7 1.33333 8 
+12 1.66667 9 
+11 1 10 
+2 1.33333 11 
+10 1.58333 12 
+9 1 13 
+18 0.916667 14 
+1 1 15 
+new seed: dp[14] == 4.666667
+3 4.375 0 
+16 2.25 1 
+15 2.33333 2 
+0 2 3 
+5 1.66667 4 
+4 1.66667 5 
+8 1.33333 6 
+1 1 7 
+7 1.33333 8 
+12 1.66667 9 
+11 1 10 
+2 1.33333 11 
+10 1.58333 12 
+9 1 13 
+18 0.916667 14 
+3 estimated inc: 4.34375
+2th new seed: dp[3] == 4.343750, threshold == 3.916667
+15 2.33333 0 
+16 2.25 1 
+4 1.66667 2 
+0 2 3 
+5 1.66667 4 
+10 1.58333 5 
+8 1.33333 6 
+1 1 7 
+7 1.33333 8 
+12 1.66667 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+9 1 13 
+15 estimated inc: 0.222222
+16 estimated inc: 1.85851
+0 estimated inc: 1.62934
+push vertex: est[6] == 0.666667
+12 1.66667 0 
+0 1.62934 1 
+5 1.66667 2 
+7 1.33333 3 
+8 1.33333 4 
+10 1.58333 5 
+4 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+6 0.666667 13 
+push vertex: est[13] == 0.666667
+12 1.66667 0 
+0 1.62934 1 
+5 1.66667 2 
+7 1.33333 3 
+8 1.33333 4 
+10 1.58333 5 
+4 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+6 0.666667 13 
+13 0.666667 14 
+push vertex: est[19] == 0.826389
+12 1.66667 0 
+0 1.62934 1 
+5 1.66667 2 
+7 1.33333 3 
+8 1.33333 4 
+10 1.58333 5 
+4 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+6 0.666667 13 
+13 0.666667 14 
+19 0.826389 15 
+12 1.66667 0 
+0 1.62934 1 
+5 1.66667 2 
+7 1.33333 3 
+8 1.33333 4 
+10 1.58333 5 
+4 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+6 0.666667 13 
+13 0.666667 14 
+19 0.826389 15 
+4 depth, threshold value 3.250000, s 16, bound 1.802951
+12 1.66667 0 
+0 1.62934 1 
+5 1.66667 2 
+7 1.33333 3 
+8 1.33333 4 
+10 1.58333 5 
+4 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+6 0.666667 13 
+13 0.666667 14 
+19 0.826389 15 
+push vertex: est[23] == 0.222222
+12 1.66667 0 
+0 1.62934 1 
+5 1.66667 2 
+7 1.33333 3 
+8 1.33333 4 
+10 1.58333 5 
+4 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+6 0.666667 13 
+13 0.666667 14 
+19 0.826389 15 
+23 0.222222 16 
+push vertex: est[21] == 0.732639
+12 1.66667 0 
+0 1.62934 1 
+5 1.66667 2 
+7 1.33333 3 
+8 1.33333 4 
+10 1.58333 5 
+4 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+6 0.666667 13 
+13 0.666667 14 
+19 0.826389 15 
+23 0.222222 16 
+21 0.732639 17 
+12 1.66667 0 
+0 1.62934 1 
+5 1.66667 2 
+7 1.33333 3 
+8 1.33333 4 
+10 1.58333 5 
+4 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+6 0.666667 13 
+13 0.666667 14 
+19 0.826389 15 
+23 0.222222 16 
+21 0.732639 17 
+5 depth, threshold value 1.958333, s 16, bound 1.802951
+12 1.66667 0 
+0 1.62934 1 
+5 1.66667 2 
+7 1.33333 3 
+8 1.33333 4 
+10 1.58333 5 
+4 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+6 0.666667 13 
+13 0.666667 14 
+19 0.826389 15 
+23 0.222222 16 
+21 0.732639 17 
+12 1.66667 0 
+0 1.62934 1 
+5 1.66667 2 
+7 1.33333 3 
+8 1.33333 4 
+10 1.58333 5 
+4 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+6 0.666667 13 
+13 0.666667 14 
+19 0.826389 15 
+23 0.222222 16 
+21 0.732639 17 
+12 1.66667 0 
+0 1.62934 1 
+5 1.66667 2 
+7 1.33333 3 
+8 1.33333 4 
+10 1.58333 5 
+4 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+6 0.666667 13 
+13 0.666667 14 
+19 0.826389 15 
+23 0.222222 16 
+21 0.732639 17 
+6 depth, threshold value 1.250000, s 16, bound 1.802951
+3th new seed: dp[16] == 1.802951, threshold == 1.250000
+12 1.66667 0 
+0 1.62934 1 
+5 1.66667 2 
+7 1.33333 3 
+8 1.33333 4 
+10 1.58333 5 
+4 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+11 1 10 
+2 1.33333 11 
+18 0.916667 12 
+6 0.666667 13 
+13 0.666667 14 
+19 0.826389 15 
+23 0.222222 16 
+21 0.732639 17 
+12 estimated inc: 0.396195
+5 estimated inc: 0.472222
+4 estimated inc: 0.673973
+0 estimated inc: 0.423973
+10 estimated inc: 1.4375
+4th new seed: dp[10] == 1.437500, threshold == 1.250000
+7 1.33333 0 
+8 1.33333 1 
+2 1.33333 2 
+9 1 3 
+11 1 4 
+18 0.916667 5 
+21 0.732639 6 
+19 0.826389 7 
+1 1 8 
+15 0.222222 9 
+0 0.423973 10 
+12 0.396195 11 
+4 0.673973 12 
+6 0.666667 13 
+13 0.666667 14 
+5 0.472222 15 
+23 0.222222 16 
+7 estimated inc: 0.222222
+8 estimated inc: 0.729167
+2 estimated inc: 0.695891
+9 estimated inc: 0
+1 estimated inc: 0.611111
+11 estimated inc: 0.5
+18 estimated inc: 0.223958
+19 estimated inc: 0.223958
+21 estimated inc: 0.153646
+2 0.695891 0 
+1 0.611111 1 
+4 0.673973 2 
+11 0.5 3 
+0 0.423973 4 
+12 0.396195 5 
+6 0.666667 6 
+21 0.153646 7 
+23 0.222222 8 
+15 0.222222 9 
+19 0.223958 10 
+18 0.223958 11 
+7 0.222222 12 
+5 0.472222 13 
+13 0.666667 14 
+9 0 15 
+push vertex: est[17] == 0.203704
+2 0.695891 0 
+1 0.611111 1 
+4 0.673973 2 
+11 0.5 3 
+0 0.423973 4 
+12 0.396195 5 
+6 0.666667 6 
+17 0.203704 7 
+23 0.222222 8 
+15 0.222222 9 
+19 0.223958 10 
+18 0.223958 11 
+7 0.222222 12 
+5 0.472222 13 
+13 0.666667 14 
+9 0 15 
+21 0.153646 16 
+7 depth, threshold value 0.666667, s 8, bound 0.729167
+5th new seed: dp[8] == 0.729167, threshold == 0.666667
+2 0.695891 0 
+1 0.611111 1 
+4 0.673973 2 
+11 0.5 3 
+0 0.423973 4 
+12 0.396195 5 
+6 0.666667 6 
+17 0.203704 7 
+23 0.222222 8 
+15 0.222222 9 
+19 0.223958 10 
+18 0.223958 11 
+7 0.222222 12 
+5 0.472222 13 
+13 0.666667 14 
+9 0 15 
+21 0.153646 16 
+assembly query find candidates operation 0.000001 seconds.
+assembly query heap operation 0.000078 seconds.
+assembly query compute 5 times.
+assembly query estimate 24 times.
+assembly query compute 0.000121 seconds.
+reset takes 0.000006 seconds
+assembly query end.
+0.002522 5 13.6 16 
+Quadtree insertion begin...
+Quadtree insertion done. 24 population, 17 regions total.
+Build WC model...
+Build WC model done.
+PMIA upgrade initialization...
+initialization MIPs...
+initialization MIPs done.
+hint based query begin...
+hint query find natives operation 0.000010 seconds.
+3 4 5 6 7 
+list[3] == 3.833333
+list[5] == 1.333333
+list[7] == 1.333333
+list[4] == 1.000000
+list[6] == 1.000000
+list[16] == 0.500000
+list[0] == 0.500000
+
+9 12 13 14 15 
+list[14] == 4.333333
+list[15] == 2.333333
+list[12] == 1.333333
+list[9] == 1.000000
+list[13] == 1.000000
+list[23] == 0.333333
+
+8 10 11 
+list[10] == 1.583333
+list[8] == 1.333333
+list[11] == 1.000000
+list[18] == 0.916667
+list[19] == 0.916667
+list[21] == 0.791667
+list[3] == 0.416667
+list[5] == 0.333333
+list[4] == 0.333333
+list[0] == 0.166667
+list[16] == 0.166667
+
+5 estimated inc: 0.222222
+7 estimated inc: 0.222222
+6 estimated inc: 0.666667
+4 estimated inc: 0.5
+16 estimated inc: 0.25
+0 estimated inc: 0
+16 estimated inc: 0
+5 estimated inc: 0
+7 estimated inc: 0
+reset takes 0.000006 seconds
+15 estimated inc: 0.222222
+12 estimated inc: 0.222222
+9 estimated inc: 0
+13 estimated inc: 0.666667
+23 estimated inc: 0
+15 estimated inc: 0
+12 estimated inc: 0
+9 estimated inc: 0
+reset takes 0.000005 seconds
+8 estimated inc: 0.972222
+11 estimated inc: 0.666667
+19 estimated inc: 0.0740741
+18 estimated inc: 0.0740741
+21 estimated inc: 0.0740741
+11 estimated inc: 0.444444
+reset takes 0.000003 seconds
+list[16] == 1.583333
+list[0] == 1.333333
+list[2] == 1.333333
+list[1] == 1.000000
+list[12] == 0.333333
+list[4] == 0.333333
+list[14] == 0.333333
+list[17] == 0.333333
+list[3] == 0.125000
+
+hint query construct lists operation 0.000043 seconds.
+hints are 14 3 10 8 6 
+Region #0
+init-dp[3] = 3.833333
+init-dp[5] = 1.333333
+init-dp[7] = 1.333333
+init-dp[4] = 1.000000
+init-dp[6] = 1.000000
+init-dp[16] = 0.500000
+init-dp[0] = 0.500000
+
+Region #1
+init-dp[14] = 4.333333
+init-dp[15] = 2.333333
+init-dp[12] = 1.333333
+init-dp[9] = 1.000000
+init-dp[13] = 1.000000
+init-dp[23] = 0.333333
+
+Region #2
+init-dp[10] = 1.583333
+init-dp[8] = 1.333333
+init-dp[11] = 1.000000
+init-dp[18] = 0.916667
+init-dp[19] = 0.916667
+init-dp[21] = 0.791667
+init-dp[3] = 0.416667
+init-dp[5] = 0.333333
+init-dp[4] = 0.333333
+init-dp[0] = 0.166667
+init-dp[16] = 0.166667
+
+Region #3
+init-dp[16] = 1.583333
+init-dp[0] = 1.333333
+init-dp[2] = 1.333333
+init-dp[1] = 1.000000
+init-dp[12] = 0.333333
+init-dp[4] = 0.333333
+init-dp[14] = 0.333333
+init-dp[17] = 0.333333
+init-dp[3] = 0.125000
+
+
+top tau #0
+dp[3] = 3.833333
+dp[6] = 0.666667
+dp[4] = 0.500000
+dp[5] = 0.000000
+dp[7] = 0.000000
+
+top tau #1
+dp[14] = 4.333333
+dp[13] = 0.666667
+dp[15] = 0.000000
+dp[12] = 0.000000
+dp[23] = 0.000000
+
+top tau #2
+dp[10] = 1.583333
+dp[8] = 0.972222
+dp[11] = 0.444444
+
+
+hint query find candidates operation 0.000002 seconds.
+new seed: dp[14] == 4.666667
+3 4.375 0 
+16 2.25 1 
+15 2.33333 2 
+0 2 3 
+5 1.66667 4 
+4 1.66667 5 
+8 1.33333 6 
+1 1 7 
+7 1.33333 8 
+12 1.66667 9 
+11 1 10 
+2 1.33333 11 
+10 1.58333 12 
+9 1 13 
+18 0.916667 14 
+compliment upper bound 3, 4.343750
+compliment upper bound 16, 2.159722
+compliment upper bound 0, 1.930556
+compliment upper bound 5, 1.666667
+3 4.34375 0 
+10 1.58333 1 
+16 2.15972 2 
+7 1.33333 3 
+11 1 4 
+4 1.66667 5 
+0 1.93056 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+18 0.916667 10 
+12 0.486111 11 
+2 1.33333 12 
+8 1.33333 13 
+5 1.66667 14 
+1th hint lowerBound: 11.388889, upperBound: 14.767361, accept rate: 0.900000
+2th new seed: dp[3] == 4.343750, threshold == 3.916667
+16 2.15972 0 
+10 1.58333 1 
+0 1.93056 2 
+7 1.33333 3 
+11 1 4 
+4 1.66667 5 
+5 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+18 0.916667 10 
+12 0.486111 11 
+2 1.33333 12 
+8 1.33333 13 
+compliment upper bound 16, 1.858507
+compliment upper bound 0, 1.629340
+compliment upper bound 10, 1.465278
+16 1.85851 0 
+1 1 1 
+0 1.62934 2 
+9 1 3 
+11 1 4 
+7 1.33333 5 
+10 1.46528 6 
+12 0.486111 7 
+5 0.479167 8 
+15 0.222222 9 
+18 0.916667 10 
+4 1.01823 11 
+8 1.33333 12 
+2 1.33333 13 
+2th hint lowerBound: 11.388889, upperBound: 13.963542, accept rate: 0.900000
+3th new seed: dp[16] == 1.802951, threshold == 1.250000
+0 1.62934 0 
+1 1 1 
+10 1.46528 2 
+9 1 3 
+11 1 4 
+7 1.33333 5 
+2 1.33333 6 
+19 0.826389 7 
+21 0.732639 8 
+15 0.222222 9 
+18 0.916667 10 
+4 1.01823 11 
+8 1.33333 12 
+6 0.666667 13 
+13 0.666667 14 
+12 0.486111 15 
+23 0.222222 16 
+5 0.479167 17 
+compliment upper bound 10, 1.437500
+compliment upper bound 8, 1.000000
+10 1.4375 0 
+8 1 1 
+19 0.826389 2 
+18 0.916667 3 
+4 0.673973 4 
+5 0.479167 5 
+6 0.666667 6 
+21 0.732639 7 
+11 0.75 8 
+15 0.222222 9 
+9 0 10 
+0 0.423973 11 
+7 0.222222 12 
+23 0.222222 13 
+13 0.666667 14 
+12 0.486111 15 
+2 0.695891 16 
+1 0.611111 17 
+3th hint lowerBound: 11.388889, upperBound: 13.250868, accept rate: 0.900000
+4th new seed: dp[10] == 1.437500, threshold == 1.250000
+8 1 0 
+18 0.916667 1 
+19 0.826389 2 
+11 0.75 3 
+4 0.673973 4 
+5 0.479167 5 
+6 0.666667 6 
+21 0.732639 7 
+1 0.611111 8 
+15 0.222222 9 
+9 0 10 
+0 0.423973 11 
+7 0.222222 12 
+23 0.222222 13 
+13 0.666667 14 
+12 0.486111 15 
+2 0.695891 16 
+compliment upper bound 8, 0.729167
+8 0.729167 0 
+2 0.695891 1 
+6 0.666667 2 
+4 0.673973 3 
+12 0.486111 4 
+5 0.479167 5 
+13 0.666667 6 
+1 0.611111 7 
+19 0.223958 8 
+15 0.222222 9 
+9 0 10 
+0 0.423973 11 
+7 0.222222 12 
+23 0.222222 13 
+21 0.153646 14 
+18 0.223958 15 
+11 0.5 16 
+4th hint lowerBound: 11.388889, upperBound: 12.980035, accept rate: 0.900000
+5th new seed: dp[8] == 0.729167, threshold == 0.666667
+2 0.695891 0 
+4 0.673973 1 
+6 0.666667 2 
+1 0.611111 3 
+12 0.486111 4 
+5 0.479167 5 
+13 0.666667 6 
+11 0.5 7 
+19 0.223958 8 
+15 0.222222 9 
+9 0 10 
+0 0.423973 11 
+7 0.222222 12 
+23 0.222222 13 
+21 0.153646 14 
+18 0.223958 15 
+17 0.203704 16 
+2 0.695891 0 
+4 0.673973 1 
+6 0.666667 2 
+1 0.611111 3 
+12 0.486111 4 
+5 0.479167 5 
+13 0.666667 6 
+11 0.5 7 
+19 0.223958 8 
+15 0.222222 9 
+9 0 10 
+0 0.423973 11 
+7 0.222222 12 
+23 0.222222 13 
+21 0.153646 14 
+18 0.223958 15 
+17 0.203704 16 
+5th hint lowerBound: 11.388889, upperBound: 12.980035, accept rate: 0.900000
+collect hints 0.001189 seconds
+hint query compute 5 times.
+hint query estimate 6 times.
+hint query compute 0.000077 seconds.
+reset takes 0.000006 seconds
+dumb hint query find natives operation 0.000007 seconds.
+list[16] == 1.583333
+list[0] == 1.333333
+list[2] == 1.333333
+list[1] == 1.000000
+list[12] == 0.333333
+list[4] == 0.333333
+list[14] == 0.333333
+list[17] == 0.333333
+list[3] == 0.125000
+
+dumb hint query construct lists operation 0.000043 seconds.
+dumb hint query find candidates operation 0.000001 seconds.
+new seed: dp[14] == 4.666667
+3 estimated inc: 4.34375
+2th new seed: dp[3] == 4.343750, threshold == 3.916667
+16's lower bound 1.250000
+10's lower bound 1.166667
+0's lower bound 1.000000
+14's lowerBound really is 0.000000
+3's lowerBound really is 0.000000
+16's lowerBound really is 1.000000
+10's lowerBound really is 1.000000
+0's lowerBound really is 0.000000
+lower bound bound 11.010417
+compliment upper bound 16, 1.858507
+compliment upper bound 0, 1.629340
+compliment upper bound 10, 1.465278
+2th lowerBound: 11.010417, upperBound: 13.963542, accept rate: 0.900000
+3th new seed: dp[16] == 1.802951, threshold == 1.250000
+10's lower bound 1.083333
+8's lower bound 0.833333
+14's lowerBound really is 0.000000
+3's lowerBound really is 0.000000
+16's lowerBound really is 0.000000
+10's lowerBound really is 1.000000
+8's lowerBound really is 0.000000
+lower bound bound 11.813368
+compliment upper bound 10, 1.437500
+compliment upper bound 8, 1.000000
+3th lowerBound: 11.813368, upperBound: 13.250868, accept rate: 0.900000
+4th new seed: dp[10] == 1.437500, threshold == 1.250000
+6's lower bound 0.666667
+14's lowerBound really is 0.000000
+3's lowerBound really is 0.000000
+16's lowerBound really is 0.000000
+10's lowerBound really is 0.000000
+6's lowerBound really is 0.000000
+lower bound bound 12.250868
+compliment upper bound 8, 0.729167
+4th lowerBound: 12.250868, upperBound: 12.980035, accept rate: 0.900000
+4th lowerBound: 12.250868, upperBound: 12.980035, accept rate: 0.900000
+dumb hint query compute 4 times.
+dumb hint query estimate 6 times.
+dumb hint query compute 0.000054 seconds.
+reset takes 0.000005 seconds
+0.001449 5 13.6 16 0.000417 5 14 16 
+hint query find natives operation 0.000008 seconds.
+list[16] == 1.583333
+list[0] == 1.333333
+list[2] == 1.333333
+list[1] == 1.000000
+list[12] == 0.333333
+list[4] == 0.333333
+list[14] == 0.333333
+list[17] == 0.333333
+list[3] == 0.125000
+
+hint query construct lists operation 0.000045 seconds.
+hints are 14 3 10 8 6 
+Region #0
+init-dp[3] = 3.833333
+init-dp[5] = 1.333333
+init-dp[7] = 1.333333
+init-dp[4] = 1.000000
+init-dp[6] = 1.000000
+init-dp[16] = 0.500000
+init-dp[0] = 0.500000
+
+Region #1
+init-dp[14] = 4.333333
+init-dp[15] = 2.333333
+init-dp[12] = 1.333333
+init-dp[9] = 1.000000
+init-dp[13] = 1.000000
+init-dp[23] = 0.333333
+
+Region #2
+init-dp[10] = 1.583333
+init-dp[8] = 1.333333
+init-dp[11] = 1.000000
+init-dp[18] = 0.916667
+init-dp[19] = 0.916667
+init-dp[21] = 0.791667
+init-dp[3] = 0.416667
+init-dp[5] = 0.333333
+init-dp[4] = 0.333333
+init-dp[0] = 0.166667
+init-dp[16] = 0.166667
+
+Region #3
+init-dp[16] = 1.583333
+init-dp[0] = 1.333333
+init-dp[2] = 1.333333
+init-dp[1] = 1.000000
+init-dp[12] = 0.333333
+init-dp[4] = 0.333333
+init-dp[14] = 0.333333
+init-dp[17] = 0.333333
+init-dp[3] = 0.125000
+
+
+top tau #0
+dp[3] = 3.833333
+dp[6] = 0.666667
+dp[4] = 0.500000
+dp[5] = 0.000000
+dp[7] = 0.000000
+
+top tau #1
+dp[14] = 4.333333
+dp[13] = 0.666667
+dp[15] = 0.000000
+dp[12] = 0.000000
+dp[23] = 0.000000
+
+top tau #2
+dp[10] = 1.583333
+dp[8] = 0.972222
+dp[11] = 0.444444
+
+
+hint query find candidates operation 0.000001 seconds.
+new seed: dp[14] == 4.666667
+3 4.375 0 
+16 2.25 1 
+15 2.33333 2 
+0 2 3 
+5 1.66667 4 
+4 1.66667 5 
+8 1.33333 6 
+1 1 7 
+7 1.33333 8 
+12 1.66667 9 
+11 1 10 
+2 1.33333 11 
+10 1.58333 12 
+9 1 13 
+18 0.916667 14 
+compliment upper bound 3, 4.343750
+compliment upper bound 16, 2.159722
+compliment upper bound 0, 1.930556
+compliment upper bound 5, 1.666667
+3 4.34375 0 
+10 1.58333 1 
+16 2.15972 2 
+7 1.33333 3 
+11 1 4 
+4 1.66667 5 
+0 1.93056 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+18 0.916667 10 
+12 0.486111 11 
+2 1.33333 12 
+8 1.33333 13 
+5 1.66667 14 
+1th hint lowerBound: 11.388889, upperBound: 14.767361, accept rate: 0.850000
+2th new seed: dp[3] == 4.343750, threshold == 3.916667
+16 2.15972 0 
+10 1.58333 1 
+0 1.93056 2 
+7 1.33333 3 
+11 1 4 
+4 1.66667 5 
+5 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+18 0.916667 10 
+12 0.486111 11 
+2 1.33333 12 
+8 1.33333 13 
+compliment upper bound 16, 1.858507
+compliment upper bound 0, 1.629340
+compliment upper bound 10, 1.465278
+16 1.85851 0 
+1 1 1 
+0 1.62934 2 
+9 1 3 
+11 1 4 
+7 1.33333 5 
+10 1.46528 6 
+12 0.486111 7 
+5 0.479167 8 
+15 0.222222 9 
+18 0.916667 10 
+4 1.01823 11 
+8 1.33333 12 
+2 1.33333 13 
+2th hint lowerBound: 11.388889, upperBound: 13.963542, accept rate: 0.850000
+3th new seed: dp[16] == 1.802951, threshold == 1.250000
+0 1.62934 0 
+1 1 1 
+10 1.46528 2 
+9 1 3 
+11 1 4 
+7 1.33333 5 
+2 1.33333 6 
+19 0.826389 7 
+21 0.732639 8 
+15 0.222222 9 
+18 0.916667 10 
+4 1.01823 11 
+8 1.33333 12 
+6 0.666667 13 
+13 0.666667 14 
+12 0.486111 15 
+23 0.222222 16 
+5 0.479167 17 
+compliment upper bound 10, 1.437500
+compliment upper bound 8, 1.000000
+10 1.4375 0 
+8 1 1 
+19 0.826389 2 
+18 0.916667 3 
+4 0.673973 4 
+5 0.479167 5 
+6 0.666667 6 
+21 0.732639 7 
+11 0.75 8 
+15 0.222222 9 
+9 0 10 
+0 0.423973 11 
+7 0.222222 12 
+23 0.222222 13 
+13 0.666667 14 
+12 0.486111 15 
+2 0.695891 16 
+1 0.611111 17 
+3th hint lowerBound: 11.388889, upperBound: 13.250868, accept rate: 0.850000
+3th hint lowerBound: 11.388889, upperBound: 13.250868, accept rate: 0.850000
+collect hints 0.000753 seconds
+hint query compute 3 times.
+hint query estimate 5 times.
+hint query compute 0.000050 seconds.
+reset takes 0.000004 seconds
+dumb hint query find natives operation 0.000007 seconds.
+list[16] == 1.583333
+list[0] == 1.333333
+list[2] == 1.333333
+list[1] == 1.000000
+list[12] == 0.333333
+list[4] == 0.333333
+list[14] == 0.333333
+list[17] == 0.333333
+list[3] == 0.125000
+
+dumb hint query construct lists operation 0.000043 seconds.
+dumb hint query find candidates operation 0.000001 seconds.
+new seed: dp[14] == 4.666667
+3 estimated inc: 4.34375
+2th new seed: dp[3] == 4.343750, threshold == 3.916667
+16's lower bound 1.250000
+10's lower bound 1.166667
+0's lower bound 1.000000
+14's lowerBound really is 0.000000
+3's lowerBound really is 0.000000
+16's lowerBound really is 1.000000
+10's lowerBound really is 1.000000
+0's lowerBound really is 0.000000
+lower bound bound 11.010417
+compliment upper bound 16, 1.858507
+compliment upper bound 0, 1.629340
+compliment upper bound 10, 1.465278
+2th lowerBound: 11.010417, upperBound: 13.963542, accept rate: 0.850000
+3th new seed: dp[16] == 1.802951, threshold == 1.250000
+10's lower bound 1.083333
+8's lower bound 0.833333
+14's lowerBound really is 0.000000
+3's lowerBound really is 0.000000
+16's lowerBound really is 0.000000
+10's lowerBound really is 1.000000
+8's lowerBound really is 0.000000
+lower bound bound 11.813368
+compliment upper bound 10, 1.437500
+compliment upper bound 8, 1.000000
+3th lowerBound: 11.813368, upperBound: 13.250868, accept rate: 0.850000
+3th lowerBound: 11.813368, upperBound: 13.250868, accept rate: 0.850000
+dumb hint query compute 3 times.
+dumb hint query estimate 6 times.
+dumb hint query compute 0.000047 seconds.
+reset takes 0.000004 seconds
+0.000952 5 12.9 16 0.000342 5 13.4 16 
+hint query find natives operation 0.000006 seconds.
+list[16] == 1.583333
+list[0] == 1.333333
+list[2] == 1.333333
+list[1] == 1.000000
+list[12] == 0.333333
+list[4] == 0.333333
+list[14] == 0.333333
+list[17] == 0.333333
+list[3] == 0.125000
+
+hint query construct lists operation 0.000047 seconds.
+hints are 14 3 10 8 6 
+Region #0
+init-dp[3] = 3.833333
+init-dp[5] = 1.333333
+init-dp[7] = 1.333333
+init-dp[4] = 1.000000
+init-dp[6] = 1.000000
+init-dp[16] = 0.500000
+init-dp[0] = 0.500000
+
+Region #1
+init-dp[14] = 4.333333
+init-dp[15] = 2.333333
+init-dp[12] = 1.333333
+init-dp[9] = 1.000000
+init-dp[13] = 1.000000
+init-dp[23] = 0.333333
+
+Region #2
+init-dp[10] = 1.583333
+init-dp[8] = 1.333333
+init-dp[11] = 1.000000
+init-dp[18] = 0.916667
+init-dp[19] = 0.916667
+init-dp[21] = 0.791667
+init-dp[3] = 0.416667
+init-dp[5] = 0.333333
+init-dp[4] = 0.333333
+init-dp[0] = 0.166667
+init-dp[16] = 0.166667
+
+Region #3
+init-dp[16] = 1.583333
+init-dp[0] = 1.333333
+init-dp[2] = 1.333333
+init-dp[1] = 1.000000
+init-dp[12] = 0.333333
+init-dp[4] = 0.333333
+init-dp[14] = 0.333333
+init-dp[17] = 0.333333
+init-dp[3] = 0.125000
+
+
+top tau #0
+dp[3] = 3.833333
+dp[6] = 0.666667
+dp[4] = 0.500000
+dp[5] = 0.000000
+dp[7] = 0.000000
+
+top tau #1
+dp[14] = 4.333333
+dp[13] = 0.666667
+dp[15] = 0.000000
+dp[12] = 0.000000
+dp[23] = 0.000000
+
+top tau #2
+dp[10] = 1.583333
+dp[8] = 0.972222
+dp[11] = 0.444444
+
+
+hint query find candidates operation 0.000002 seconds.
+new seed: dp[14] == 4.666667
+3 4.375 0 
+16 2.25 1 
+15 2.33333 2 
+0 2 3 
+5 1.66667 4 
+4 1.66667 5 
+8 1.33333 6 
+1 1 7 
+7 1.33333 8 
+12 1.66667 9 
+11 1 10 
+2 1.33333 11 
+10 1.58333 12 
+9 1 13 
+18 0.916667 14 
+compliment upper bound 3, 4.343750
+compliment upper bound 16, 2.159722
+compliment upper bound 0, 1.930556
+compliment upper bound 5, 1.666667
+3 4.34375 0 
+10 1.58333 1 
+16 2.15972 2 
+7 1.33333 3 
+11 1 4 
+4 1.66667 5 
+0 1.93056 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+18 0.916667 10 
+12 0.486111 11 
+2 1.33333 12 
+8 1.33333 13 
+5 1.66667 14 
+1th hint lowerBound: 11.388889, upperBound: 14.767361, accept rate: 0.800000
+2th new seed: dp[3] == 4.343750, threshold == 3.916667
+16 2.15972 0 
+10 1.58333 1 
+0 1.93056 2 
+7 1.33333 3 
+11 1 4 
+4 1.66667 5 
+5 1.66667 6 
+1 1 7 
+9 1 8 
+15 0.222222 9 
+18 0.916667 10 
+12 0.486111 11 
+2 1.33333 12 
+8 1.33333 13 
+compliment upper bound 16, 1.858507
+compliment upper bound 0, 1.629340
+compliment upper bound 10, 1.465278
+16 1.85851 0 
+1 1 1 
+0 1.62934 2 
+9 1 3 
+11 1 4 
+7 1.33333 5 
+10 1.46528 6 
+12 0.486111 7 
+5 0.479167 8 
+15 0.222222 9 
+18 0.916667 10 
+4 1.01823 11 
+8 1.33333 12 
+2 1.33333 13 
+2th hint lowerBound: 11.388889, upperBound: 13.963542, accept rate: 0.800000
+2th hint lowerBound: 11.388889, upperBound: 13.963542, accept rate: 0.800000
+collect hints 0.000477 seconds
+hint query compute 2 times.
+hint query estimate 0 times.
+hint query compute 0.000031 seconds.
+reset takes 0.000003 seconds
+dumb hint query find natives operation 0.000006 seconds.
+list[16] == 1.583333
+list[0] == 1.333333
+list[2] == 1.333333
+list[1] == 1.000000
+list[12] == 0.333333
+list[4] == 0.333333
+list[14] == 0.333333
+list[17] == 0.333333
+list[3] == 0.125000
+
+dumb hint query construct lists operation 0.000044 seconds.
+dumb hint query find candidates operation 0.000001 seconds.
+new seed: dp[14] == 4.666667
+3 estimated inc: 4.34375
+2th new seed: dp[3] == 4.343750, threshold == 3.916667
+16's lower bound 1.250000
+10's lower bound 1.166667
+0's lower bound 1.000000
+14's lowerBound really is 0.000000
+3's lowerBound really is 0.000000
+16's lowerBound really is 1.000000
+10's lowerBound really is 1.000000
+0's lowerBound really is 0.000000
+lower bound bound 11.010417
+compliment upper bound 16, 1.858507
+compliment upper bound 0, 1.629340
+compliment upper bound 10, 1.465278
+2th lowerBound: 11.010417, upperBound: 13.963542, accept rate: 0.800000
+3th new seed: dp[16] == 1.802951, threshold == 1.250000
+10's lower bound 1.083333
+8's lower bound 0.833333
+14's lowerBound really is 0.000000
+3's lowerBound really is 0.000000
+16's lowerBound really is 0.000000
+10's lowerBound really is 1.000000
+8's lowerBound really is 0.000000
+lower bound bound 11.813368
+compliment upper bound 10, 1.437500
+compliment upper bound 8, 1.000000
+3th lowerBound: 11.813368, upperBound: 13.250868, accept rate: 0.800000
+3th lowerBound: 11.813368, upperBound: 13.250868, accept rate: 0.800000
+dumb hint query compute 3 times.
+dumb hint query estimate 6 times.
+dumb hint query compute 0.000042 seconds.
+reset takes 0.000003 seconds
+0.000621 5 12.1 16 0.000341 5 13.7 16 
+hint query end.

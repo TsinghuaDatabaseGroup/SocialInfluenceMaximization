@@ -1,0 +1,80 @@
+TMIA
+rm -rf *.o tests experiments offline
+g++ -O3 -Wall -o tic.o -c tic.cpp
+g++ -O3 -Wall -o tim.o -c tim.cpp
+g++ -O3 -Wall -o experiments.o -c experiments.cpp
+g++ -O3 -Wall tic.o tim.o experiments.o -o experiments -lm 
+./experiments -b ../data/lastfm.tedge ../data/lastfm.list 100 10 ../data/lastfm.query.items
+building TIC model...
+Initializing Greedy BestFirst framework...
+Q = (50, {2.89041e-09, 0.000123554, 1.05599e-27, 1.0583e-16, 1.9212e-17, 1.75079e-08, 1.77988e-75, 0.000214991, 1.59634e-12, 1.34841e-29, 3.13608e-31, 0.833018, 1.39775e-28, 1.47139e-11, 4.37303e-26, 4.35279e-26, 2.96583e-09, 9.40921e-07, 0.166643, 3.96096e-16, })
+Reseting TIM workspace ... Reset is needed for each query.
+reset takes time 2.5e-05 s.
+H_ operation takes time 0.000422 s.
+S = 
+312	34.7187
+605	28.388
+264	14.0354
+171	8.93168
+223	7.62685
+47	7.40909
+217	7.0549
+17	6.84401
+690	6.15785
+610	5.75641
+199	5.4571
+660	5.45388
+449	4.57032
+204	3.96316
+472	3.83125
+46	3.72868
+548	3.69652
+1136	3.64737
+90	3.32029
+60	3.17254
+456	2.931
+137	2.91085
+684	2.91906
+428	2.94708
+985	2.80445
+308	2.76668
+185	2.76216
+173	2.6953
+878	2.62169
+944	2.50917
+461	2.47527
+788	2.42107
+242	2.41199
+272	2.36774
+750	2.37481
+3	2.31676
+1172	2.27445
+362	2.27207
+826	2.27247
+1232	2.20228
+167	2.18856
+244	2.17235
+459	2.06892
+419	2.0531
+198	2.05136
+210	2.05026
+328	2.03862
+894	1.95853
+751	1.94468
+880	1.938
+spread : 242.792, time: 0.150701
+PMIA
+building TIC model...
+convert time 0.034815
+number of vertices:	1372
+number of edges:	7354
+density:	0.0078192
+average degree:	21.4402
+maximal degree:	148
+# of connected component:	15
+largest component size:	1338
+average component size:	91.4667
+100 Start PMIA algorithm...
+5986 258.137 dijkstra: 4515 times
+PMIA algorithm finished.
+
